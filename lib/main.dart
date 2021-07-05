@@ -11,7 +11,27 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text('My first App'),
         ),
-        body: Text('thsi si my app'),
+        body: Column(
+          children: <Widget>[
+            Text('this is default app'),
+            RaisedButton(
+              onPressed: null,
+              child: Text('Asn1'),
+            ),
+            RaisedButton(
+              onPressed: null,
+              child: Text('Asn1'),
+            ),
+            RaisedButton(
+              onPressed: null,
+              child: Text('Asn2'),
+            ),
+            RaisedButton(
+              onPressed: null,
+              child: Text('Asn3'),
+            ),
+          ],
+        ),
       ),
     );
   }
